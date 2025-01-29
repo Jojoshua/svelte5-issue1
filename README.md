@@ -1,5 +1,5 @@
-#Project
-Created from npx sv create
+#Project Creation
+- npx sv create
 
 #Added Files
 - App.svelte
