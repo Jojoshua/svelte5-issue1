@@ -2,6 +2,6 @@ export interface Specialty_Props {
     name: string;
 }
 
-export interface Specialty_AbstractClass{  
-    doSomething:(name:number)=>void;
+export interface Specialty_AbstractComponent{  
+    doSomething:(data:number)=>void;
 }

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import SpecialityAbstractClass from "./SpecialityAbstractClass.svelte";
+    import AbstractComponent from "./AbstractComponent.svelte";
     import type { Specialty_Props } from "./specialty-types";
 
     interface Props {
@@ -8,9 +8,9 @@
 
     let { name }: Props = $props();
     
-    function doSomething(name: number) {
+    function doSomething(data: string) {
         console.log("doSomething() called");
     }
 </script>
 
-<SpecialityAbstractClass {doSomething}></SpecialityAbstractClass>
+<AbstractComponent {doSomething}></AbstractComponent>
