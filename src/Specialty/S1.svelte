@@ -1,7 +1,6 @@
 <script lang="ts">
     import AbstractComponent from "./AbstractComponent.svelte";
     import type { Specialty_Props } from "./specialty-types";
-    import type { svelte } from "@sveltejs/vite-plugin-svelte";
     import self from "./S1.svelte"
     import AbstractComponentFull from "./AbstractComponentFull.svelte";
  
