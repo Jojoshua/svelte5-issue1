@@ -4,6 +4,7 @@
 
     interface Props {
         component: SpecialtyComponent;
+        doSomething:(data:number)=>void;
     }
 
     let { }: Props = $props();

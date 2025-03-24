@@ -16,4 +16,4 @@
 
 <AbstractComponent {doSomething}></AbstractComponent>
 
-<AbstractComponentFull component={self}></AbstractComponentFull>
+<AbstractComponentFull component={self} {doSomething}></AbstractComponentFull>
